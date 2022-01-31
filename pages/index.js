@@ -7,6 +7,7 @@ import Features from "./components/features";
 import Announcement from './components/announcement';
 
 
+
 export default function Home() {
   return (
     <div className="w-screen">
