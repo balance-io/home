@@ -17,7 +17,7 @@ export default function Navigation() {
                     </a>
                 </Link>
                 <div>
-                    <Image src="/balance.svg" alt="balance" width="60" height="60" className="" />
+                    <Image src="/Balance.svg" alt="balance" width="60" height="60" className="" />
                 </div>
                 <Link href="">
                     <a className="link link-underline link-underline-black text-black" target="_blank">
