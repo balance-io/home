@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navigation() {
     return (
-        <div className="flex pt-12 p-4  justify-center ">
+        <div className="flex pt-12 p-6 bg-gray-100 w-screen rounded-b-3xl justify-center ">
             <div className="flex space-x-12 text-xl items-center		  ">
                 <Link href="">
                     <a className="link link-underline link-underline-black text-black" target="_blank">
@@ -16,11 +16,9 @@ export default function Navigation() {
                         Community
                     </a>
                 </Link>
-
-                {/* balance.svg */}
-                {/* image balance.png */}
-                <img src="../../balance.svg" alt="balance" className="" />
-
+                <div>
+                    <Image src="/balance.svg" alt="balance" width="60" height="60" className="" />
+                </div>
                 <Link href="">
                     <a className="link link-underline link-underline-black text-black" target="_blank">
                         Developers
