@@ -8,7 +8,7 @@ import Features from "./components/features";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="w-screen">
       <Head>
         <title>Balance</title>
         <link rel="icon" href="/favicon.ico" />
