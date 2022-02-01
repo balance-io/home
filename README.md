@@ -7,7 +7,7 @@ This is the landing page for Balance wallet, The open source wallet for the Appl
 
 ## Deployments 💻
 
-Vercel: https://balance-landing.vercel.app/
+Vercel: https://balance.io
 
 ## For development 🧑‍💻
 
