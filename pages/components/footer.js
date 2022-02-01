@@ -3,13 +3,15 @@ import Link from "next/link";
 
 function Footer() {
     return (
-      <section className=" pt-6 p-6 bg-[#131415] w-screen justify-center sticky top-0 z-50 pr-20 pl-20">
-        <h1 className="text-white text-center mx-auto text-2xl pb-10 ">
+      <section className=" pt-6 p-6 bg-[#131415] w-screen justify-center sticky   pr-20 pl-20">
+       
+        <h1 className="text-white text-center text-2xl pb-10 ">
           How <b className="font-medium">you</b> can help{" "}
           <b className="font-medium">Us</b> before{" "}
           <b className="font-medium">we </b> launch the app{" "}
         </h1>
-        <div className=" space-x-12 items-center">
+        
+        <div className="">
           <div className="flex gap-3 justify-center">
             <button className="bg-sky-500 text-white hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex hover:cursor-pointer duration-300 ">
               Follow on twitter
@@ -43,12 +45,12 @@ function Footer() {
                 src="/assets/img/map.jpg"
                 alt="balance"
                 width="550"
-                height="266"
+                height="216"
                 className="rounded-3xl "
               />
             </span>
 
-            <div className="justify-end">
+            <div className="justify-end w-48">
               <h1 className="text-white justify-end text-3xl font-semibold">
                 Contact
               </h1>
