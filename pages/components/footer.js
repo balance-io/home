@@ -7,7 +7,7 @@ function Footer() {
        
         <h1 className="text-white text-center text-2xl pb-10 ">
           How <b className="font-medium">you</b> can help{" "}
-          <b className="font-medium">Us</b> before{" "}
+          <b className="font-medium">us</b> before{" "}
           <b className="font-medium">we </b> launch the app{" "}
         </h1>
         
@@ -29,7 +29,8 @@ function Footer() {
           <div className="flex  justify-between ">
             <div className="justify-end">
               <h1 className="text-white justify-end text-4xl font-semibold pb-7">
-                Balance
+                  {/* <Image src="/balance-trans.png" alt="balance" width="80" height="60" className="" /> */}
+                Balance.
               </h1>
 
              <h2 className="text-white text-xl">Balance Software, Inc.</h2>
@@ -61,7 +62,7 @@ function Footer() {
                 Request a Call Back
               </p>
 
-              <h1 className="text-white justify-end text-3xl font-semibold">
+              <h1 className="text-white pt-4 justify-end text-3xl font-semibold">
                 Media
               </h1>
 

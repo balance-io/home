@@ -2,8 +2,8 @@ import Image from "next/image";
 
  function Features() {
     return (
-        <div className="flex justify-center pr-48 pl-48 ">
-        <div className="grid grid-cols-3 w-full  gap-8 " >
+        <div className="flex justify-center lg:pr-48 lg:pl-48 md:pr-20 md:pl-20 pr-8 pl-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-full  gap-8 " >
 
             <div>
             <Image src="/assets/icons/apple.jpg" alt="balance" width="25" height="25" className="" />
