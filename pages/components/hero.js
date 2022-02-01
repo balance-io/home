@@ -10,10 +10,15 @@ export default function Hero() {
                     <Image src="/Phone.svg" alt="balance" width="500" height="500" className="mx-auto" />
                 </div>
             </div>
-            <div className="flex justify-center items-center">
-        <button className="bg-black hover:bg-gray-700 text-white py-4 px-6 rounded-lg mb-14 font-semibold"><Image src="/Rings.svg" alt="balance" width="20" height="20" className="align-middle" /> Join The <span className='font-bold'>Crowdfund</span></button>
-      </div>
-      <div className="pb-12" />
+            <div className="flex justify-center items-center ">
+                <div className="bg-black hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex ">
+                    <div class="w-8 h-8 pr-2 pt-0.5">
+                        <Image src="/Rings.svg" alt="balance" width="500" height="500" className="mx-auto" />
+                    </div>
+                    <button className=" text-white font-semibold"> Join The <span className='font-bold'>Crowdfund</span></button>
+                </div>
+            </div>
+            <div className="pb-12" />
         </section>
     );
 } 
