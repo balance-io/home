@@ -73,6 +73,7 @@ function Footer() {
             </div>
           </div>
         </div>
+        <div className="pb-12" />
       </section>
     );
 }

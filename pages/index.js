@@ -21,7 +21,7 @@ export default function Home() {
       <Features />
       <div className='mb-40' />
       <Footer />
-      <div className="pb-60" />
+      
     </div>
   )
 }
