@@ -7,7 +7,7 @@ export default function Hero() {
             <h1 className="text-black text-center mx-auto text-3xl pb-5">The <b className="font-medium">open source wallet</b> for the <b className="font-medium">Apple & Ethereum</b> communities</h1>
             <div>
                 <div className="flex justify-center pr-10">
-                    <Image src="/Phone.svg" alt="balance" width="500" height="500" className="mx-auto" />
+                    <Image src="/Phone.svg" alt="balance" width="600" height="600" className="mx-auto" />
                 </div>
             </div>
             <div className="flex justify-center items-center ">
