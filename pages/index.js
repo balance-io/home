@@ -5,7 +5,7 @@ import Navigation from "./components/navigation";
 import Hero from "./components/hero";
 import Features from "./components/features";
 import Announcement from './components/announcement';
-
+import Footer from "./components/footer";
 
 
 export default function Home() {
@@ -22,6 +22,7 @@ export default function Home() {
         <button className="bg-black hover:bg-gray-700 text-white py-4 px-6 rounded-lg mb-14 font-semibold"><Image src="/Rings.svg" alt="balance" width="20" height="20" className="align-middle" /> Join The <span className='font-bold'>Crowdfund</span></button>
       </div>
       <Features />
+      <Footer />
       <div className="pb-60" />
     </div>
   )
