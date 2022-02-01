@@ -11,7 +11,7 @@ function Footer() {
           <b className="font-medium">we </b> launch the app{" "}
         </h1>
         
-        <div className="">
+        <div className="md:grid hidden">
           <div className="flex gap-3 justify-center">
             <button className="bg-sky-500 text-white hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex hover:cursor-pointer duration-300 ">
               Follow on twitter
@@ -28,15 +28,11 @@ function Footer() {
 
           <div className="flex  justify-between ">
             <div className="justify-end">
-              <h1 className="text-white justify-end text-4xl font-semibold pb-7">
-                  {/* <Image src="/balance-trans.png" alt="balance" width="80" height="60" className="" /> */}
-                Balance.
-              </h1>
 
-             <h2 className="text-white text-xl">Balance Software, Inc.</h2>
+             <h2 className="text-white text-3xl">Balance Software, Inc.</h2>
              <p className="text-slate-300">San Francisco, California</p>
             <div className="pb-5" />
-             <h2 className="text-white text-xl">Want to visit us?</h2>
+             <h2 className="text-white text-3xl ">Want to visit us?</h2>
                 <p className="text-slate-300">We love having guests from <br />the Ethereum community in our <br /> Presidio Studio</p>
               
             </div>
@@ -74,6 +70,82 @@ function Footer() {
             </div>
           </div>
         </div>
+
+
+
+        <div className="md:hidden ">
+          <div className="flex gap-3 justify-center">
+            <button className="bg-sky-500 text-white hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex hover:cursor-pointer duration-300 ">
+              Twitter
+            </button>
+
+            <button className="bg-indigo-600 text-white hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex hover:cursor-pointer duration-300 ">
+              Discord
+            </button>
+
+            <button className="bg-stone-800 text-white hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex hover:cursor-pointer duration-300 ">
+              Github
+            </button>
+          </div>
+
+
+          <span className="justify-center">
+              <Image
+                src="/assets/img/map.jpg"
+                alt="balance"
+                width="550"
+                height="216"
+                className="rounded-3xl "
+              />
+            </span>
+          <div className="  flex justify-center">
+
+         
+
+
+            <div className="justify-end">
+            <div className="pb-6 justify-end">
+              
+
+             <h2 className="text-white text-3xl font-semibold">Balance Software</h2>
+             <p className="text-slate-300">San Francisco, California</p>
+            <div className="pb-5" />
+             <h2 className="text-white text-3xl font-semibold">Want to visit us?</h2>
+                <p className="text-slate-300">We love having guests from <br />the Ethereum community in our <br /> Presidio Studio</p>
+              
+            </div>
+
+           
+
+            <div className="justify-end w-48">
+              <h1 className="text-white justify-end text-3xl font-semibold">
+                Contact
+              </h1>
+
+              <p className="text-slate-300">
+                hello@balance.io <br />
+                Intercom Chat (SMS) <br />
+                Request a Call Back
+              </p>
+
+              <h1 className="text-white pt-4 justify-end text-3xl font-semibold">
+                Media
+              </h1>
+
+              <p className="text-slate-300">
+                Blog <br />
+                Brand Kit <br />
+                Press contact
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+
+
+
         <div className="pb-12" />
       </section>
     );
