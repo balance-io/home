@@ -12,13 +12,13 @@ export default function Hero() {
             </div>
             <div className="flex justify-center align-center">
                 <Link href="https://ricburton.mirror.xyz/crowdfunds/0x9500b696F00AE82CA97d06379CF0A2b60B467040" passHref>
-                <div className="flex bg-black text-white py-6 px-8 rounded-xl mb-14 font-semibold whitespace-nowrap space-x-2 hover:bg-gray-800 hover:cursor-pointer duration-300">
-                   <span className="hidden md:flex"> <Image src="/Rings.svg" alt="balance" width="20" height="20" className="" /> </span>
-                    <p className="text-2xl font-normal">Join The <b className='font-bold'>Crowdfund</b></p>
+                    <div className="flex bg-[#131415] text-white py-6 px-8 rounded-xl mb-14 font-semibold whitespace-nowrap space-x-2 hover:bg-gray-800 hover:cursor-pointer duration-300">
+                        <span className="hidden md:flex"> <Image src="/Rings.svg" alt="balance" width="20" height="20" className="" /> </span>
+                        <p className="text-2xl font-normal">Join The <b className='font-bold'>Crowdfund</b></p>
                     </div>
                 </Link>
             </div>
-      <div className="pb-12" />
+            <div className="pb-12" />
         </section>
     );
 }
