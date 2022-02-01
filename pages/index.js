@@ -19,7 +19,7 @@ export default function Home() {
       <Announcement />
       <Hero />
       <Features />
-
+      <div className="pb-60" />
     </div>
   )
 }
