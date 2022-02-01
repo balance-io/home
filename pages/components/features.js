@@ -9,11 +9,11 @@ import Image from "next/image";
         <div className="flex md:hidden flex-col items-center m-8">
 
 <div className="w-full bg-white rounded overflow-x-hidden flex snap-x" >
-  <div className="snap-start w-full h-full flex items-center justify-center   flex-shrink-0 " id="slide-1">
-  <div className="">
-          <Image src="/assets/icons/apple.jpg" alt="balance" width="25" height="25" className="" />
-              <h1 className="text-2xl font-semibold">Native to Apple platforms</h1>
-              <p>Balance is built with Swift, UIKit 	&#38; Swift UI to make the most of incredible developer APIs Apple provides.</p>
+    <div className="snap-start w-full h-full flex items-center justify-center   flex-shrink-0 " id="slide-1">
+    <div className="">
+        <Image src="/assets/icons/apple.jpg" alt="balance" width="25" height="25" className="" />
+            <h1 className="text-2xl font-semibold">Native to Apple platforms</h1>
+            <p>Balance is built with Swift, UIKit 	&#38; SwiftUI to make the most of incredible developer APIs Apple provides.</p>
           </div>
   </div>
   <div className="snap-start w-full h-full flex items-center justify-center   flex-shrink-0 " id="slide-2">
@@ -68,19 +68,6 @@ import Image from "next/image";
 </div>
 </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         <div className="md:flex hidden justify-center lg:pr-48 lg:pl-48 md:pr-20 md:pl-20 pr-8 pl-8 ">

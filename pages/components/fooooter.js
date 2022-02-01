@@ -1,6 +1,0 @@
-
-
-
-function fooooter(){
-    return (<div />)
-}
