@@ -11,7 +11,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="flex justify-center items-center ">
-                <div className="bg-black hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex ">
+                <div className="bg-black hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex hover:cursor-pointer duration-300 ">
                     <div className="w-8 h-8 pr-2 pt-0.5">
                         <Image src="/Rings.svg" alt="balance" width="500" height="500" className="mx-auto" />
                     </div>
