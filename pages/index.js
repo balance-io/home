@@ -19,7 +19,7 @@ export default function Home() {
       <Announcement />
       <Hero />
       <div className="flex justify-center items-center">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-6 px-24 r-6 rounded-lg"></button>
+        <button className="bg-black hover:bg-gray-700 text-white py-4 px-6 rounded-lg mb-14 font-semibold"><Image src="/Rings.svg" alt="balance" width="20" height="20" className="align-middle" /> Join The <span className='font-bold'>Crowdfund</span></button>
       </div>
       <Features />
       <div className="pb-60" />
