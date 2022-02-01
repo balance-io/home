@@ -18,9 +18,6 @@ export default function Home() {
       <Navigation />
       <Announcement />
       <Hero />
-      <div className="flex justify-center items-center">
-        <button className="bg-black hover:bg-gray-700 text-white py-4 px-6 rounded-lg mb-14 font-semibold"><Image src="/Rings.svg" alt="balance" width="20" height="20" className="align-middle" /> Join The <span className='font-bold'>Crowdfund</span></button>
-      </div>
       <Features />
       <div className="pb-60" />
     </div>
