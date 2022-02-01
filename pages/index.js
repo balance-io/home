@@ -19,6 +19,7 @@ export default function Home() {
       <Announcement />
       <Hero />
       <Features />
+      <div className='mb-40' />
       <Footer />
       <div className="pb-60" />
     </div>
