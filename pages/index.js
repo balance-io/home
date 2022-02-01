@@ -18,6 +18,9 @@ export default function Home() {
       <Navigation />
       <Announcement />
       <Hero />
+      <div className="flex justify-center items-center">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-6 px-24 r-6 rounded-lg"></button>
+      </div>
       <Features />
 
     </div>

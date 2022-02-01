@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navigation() {
     return (
-        <div className="flex pt-6 p-6 bg-gray-100 w-screen justify-center ">
+        <div className="flex pt-6 p-6 bg-gray-100 w-screen justify-center sticky top-0 z-50">
             <div className="flex space-x-12 text-xl items-center		  ">
                 <Link href="">
                     <a className="link link-underline link-underline-black text-black" target="_blank">
