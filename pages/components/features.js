@@ -1,5 +1,6 @@
+import Image from "next/image";
 
-export default function Features() {
+ function Features() {
     return (
         <div className="flex justify-center pr-28 pl-28 ">
         <div className="grid grid-cols-3 w-full  gap-8 " >
@@ -30,6 +31,9 @@ export default function Features() {
             </div>
 
             <div>
+                <div className="inline  ">
+                <Image src="/assets/icons/lock.jpg" alt="balance" width="20" height="25" className="" />
+                </div>
                 <h1 className="text-2xl font-semibold">Security Community Support</h1>
                 <p>Our code will be reviewed regularly by the most reputable auditors in Ethereum &#38; open for any security researchers to explore</p>
             </div>
@@ -38,3 +42,4 @@ export default function Features() {
         </div>
     );
 }
+export default Features;

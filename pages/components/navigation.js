@@ -11,9 +11,9 @@ export default function Navigation() {
                     </a>
                 </Link>
 
-                <Link href="">
+                <Link href="https://discord.gg/V7j9MEuK8h">
                     <a className="link link-underline link-underline-black text-black" target="_blank">
-                        Community
+                        Discord
                     </a>
                 </Link>
                 <div>
