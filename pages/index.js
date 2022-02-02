@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
-      <Announcement />
+      {/* <Announcement /> */}
       <Hero />
       <Features />
       <div className='mb-40' />

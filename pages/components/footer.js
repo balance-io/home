@@ -3,14 +3,14 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <section className=" pt-6 p-6 bg-[#131415] w-screen justify-center sticky   pr-20 pl-20">
+    <section className=" pt-6 p-6 bg-[#131415] w-screen justify-center sticky pr-20 pl-20">
 
-      <h1 className="text-white text-center text-2xl pb-10 ">
+      <h1 className="text-white text-center text-3xl pb-10 pt-10 ">
         How <b className="font-medium">you</b> can help{" "}
         <b className="font-medium">us</b> before{" "}
         <b className="font-medium">we </b> launch the app{" "}
       </h1>
-
+      
       <div className="md:grid hidden">
         <div className="flex gap-3 justify-center">
           <a href="https://twitter.com/Balance_io">
@@ -38,7 +38,7 @@ function Footer() {
               Follow on twitter
             </button>
 
-            <button className="bg-indigo-600 text-white hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex hover:cursor-pointer duration-300 ">
+            <button className="bg-indigo-600 text-white hover:bg-gray-700 py-4 px-6 mb-14 rounded-xl flex hover:cursor-pointer duratgion-300 ">
               Join our discord
             </button>
 
