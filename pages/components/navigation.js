@@ -18,7 +18,7 @@ export default function Navigation() {
                             <Image src="/Balance.svg" alt="balance" width="60" height="60" className="cursor-pointer" />
                         </Link>
                     </div>
-                    <Link href="">
+                    <Link href="https://ricburton.substack.com/">
                         <a className="link link-underline link-underline-black text-black hover:text-slate-700 duration-300" target="_blank">
                             Blog
                         </a>

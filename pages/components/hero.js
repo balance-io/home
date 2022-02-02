@@ -18,12 +18,12 @@ export default function Hero() {
                     </div>
                 </Link>
 
-                <Link href="https://ricburton.mirror.xyz/crowdfunds/0x9500b696F00AE82CA97d06379CF0A2b60B467040" passHref>
-                    <div className="flex bg-[#131415] text-white py-6 px-8 rounded-xl mb-14 font-semibold whitespace-nowrap space-x-2 hover:bg-gray-700 hover:cursor-pointer duration-300">
-                        <span className="hidden md:flex"> <Image src="/Discord.svg" alt="balance" width="25" height="25" className="" /> </span>
-                        <p className="text-2xl font-normal">Join The <b className='font-bold'>Discord</b></p>
+                <a href="https://discord.gg/sZtdVDrVGH">
+                    <div className="flex bg-indigo-600 text-white py-6 px-8 rounded-xl mb-14 font-semibold whitespace-nowrap space-x-2 hover:bg-gray-700 hover:cursor-pointer duration-300">
+                        <span className="hidden md:flex"> <Image src="/Discord.svg" alt="balance" width="30" height="30" className="" /> </span>
+                        <p className="text-2xl font-normal">Join our <b className='font-bold'>Discord</b></p>
                     </div>
-                </Link>
+                </a>
             </div>
             <div className="pb-12" />
         </section>
