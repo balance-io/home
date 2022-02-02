@@ -13,7 +13,7 @@ export default function Hero() {
             <div className="flex gap-2 justify-center align-center">
                 <Link href="https://ricburton.mirror.xyz/crowdfunds/0x9500b696F00AE82CA97d06379CF0A2b60B467040" passHref>
                     <div className="flex bg-[#131415] text-white py-6 px-8 rounded-xl mb-14 font-semibold whitespace-nowrap space-x-2 hover:bg-gray-700 hover:cursor-pointer duration-300">
-                        <span className="hidden md:flex"> <Image src="/Rings.svg" alt="balance" width="20" height="20" className="" /> </span>
+                        <span className="hidden md:flex"> <Image src="/Rings.svg" alt="balance" width="30" height="30" className="" /> </span>
                         <p className="text-2xl font-normal pl-2">Join The <b className='font-bold'>Crowdfund</b></p>
                     </div>
                 </Link>
