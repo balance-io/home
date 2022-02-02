@@ -48,7 +48,7 @@ function Footer() {
         </div>
 
         <div className="flex  justify-between ">
-          <div className="justify-end">
+          <div className="justify-end pr-24">
 
             <h2 className="text-white text-3xl">Balance Software, Inc.</h2>
             <p className="text-slate-300">San Francisco, California</p>
@@ -68,7 +68,7 @@ function Footer() {
             />
           </span>
 
-          <div className="justify-end w-48">
+          <div className="justify-end  pr-24">
             <h1 className="text-white justify-end text-3xl font-semibold">
               Contact
             </h1>
