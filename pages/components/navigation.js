@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Navigation() {
     return (
 
-        <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 pt-10 mx-10">
+        <nav className="bg-transparent px-4 py-10">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
-                <a href="#" className="flex ml-2 ">
+                <a href="#" className="flex iml-4">
                     <Link href="/">
                         <Image src="/Logo.svg" alt="balance" width="30" height="30" className="cursor-pointer" />
                     </Link>
