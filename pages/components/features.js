@@ -59,7 +59,7 @@ function Features() {
                     </div>
 
                     <div className="flex mt-8 space-x-3 ">
-                        <a className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center" href="#slide-1"> <Image src="/assets/icons/apple.jpg" alt="balance" width="25" height="25" className="" /></a>
+                        <a className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center" href="#slide-1"> <Image src="/Swift.svg" alt="balance" width="25" height="25" className="" /></a>
                         <a className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center" href="#slide-2"><Image src="/assets/icons/safari.jpg" alt="balance" width="22" height="25" className="" /></a>
                         <a className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center" href="#slide-3">  <Image src="/assets/icons/web.jpg" alt="balance" width="20" height="20" className="" /></a>
                         <a className="w-8 mr-1 h-8 text-gray-700 rounded-full bg-white flex justify-center items-center" href="#slide-4"><Image src="/assets/icons/etherans.jpg" alt="balance" width="20" height="25" className="" /></a>
@@ -70,40 +70,40 @@ function Features() {
             </div>
 
 
-            <div className="md:flex hidden justify-center lg:pr-48 lg:pl-48 md:pr-20 md:pl-20 pr-8 pl-8 ">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-full  gap-8 " >
+            <div className="md:flex hidden justify-center lg:pl-10 lg:pr-10 md:pl-10 pr-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-full  gap-2 " >
 
-                    <div className="bg-gray-200">
-                        <Image src="/assets/icons/apple.jpg" alt="balance" width="25" height="25" className="" />
+                    <div className="bg-gray-100 p-4 pb-{200} rounded-xl">
+                        <Image src="/Swift.svg" alt="balance" width="25" height="25" className="" />
                         <h1 className="text-2xl font-semibold">Native to Apple platforms</h1>
-                        {/* <p>Balance is built with Swift, UIKit 	&#38; Swift UI to make the most of incredible developer APIs Apple provides.</p> */}
+                        <p>Balance is built with Swift, UIKit 	&#38; Swift UI to make the most of incredible developer APIs Apple provides.</p>
                     </div>
 
-                    <div>
+                    <div className="bg-gray-100 p-4 pb-20 rounded-xl">
                         <Image src="/assets/icons/safari.jpg" alt="balance" width="22" height="25" className="" />
                         <h1 className="text-2xl font-semibold">Safari Extension Integration</h1>
                         <p>Our wallet is woven deeply into the Safari browser so dapp developers can finally start shipping for the mobile web</p>
                     </div>
 
-                    <div>
+                    <div className="bg-gray-100 p-4 pb-20 rounded-xl">
                         <Image src="/assets/icons/web.jpg" alt="balance" width="20" height="20" className="" />
                         <h1 className="text-2xl font-semibold">Truly Open Source Code</h1>
                         <p>We believe the people who use open source protocols deserve interfaces that respect the community&apos;s values</p>
                     </div>
 
-                    <div>
+                    <div className="bg-gray-100 p-4 pb-20 rounded-xl">
                         <Image src="/assets/icons/etherans.jpg" alt="balance" width="20" height="25" className="" />
                         <h1 className="text-2xl font-semibold">Funded By Ethereans</h1>
                         <p>We raised a totally open crowdfunding campaign in 2017 that anyone in the world could participate in</p>
                     </div>
 
-                    <div>
+                    <div className="bg-gray-100 p-4 pb-20 rounded-xl">
                         <Image src="/assets/icons/evm.jpg" alt="balance" width="20" height="25" className="" />
                         <h1 className="text-2xl font-semibold">Focused on the EVM</h1>
                         <p>We are building on top of the stack that supports the Ethereum Virtual Machine so we can support many protocols</p>
                     </div>
 
-                    <div>
+                    <div className="bg-gray-100 p-4 pb-20 rounded-xl">
 
                         <Image src="/assets/icons/lock.jpg" alt="balance" width="20" height="25" className="" />
 
