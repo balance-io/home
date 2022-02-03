@@ -73,39 +73,39 @@ function Features() {
             <div className="md:flex hidden justify-center lg:pl-10 lg:pr-10 md:pl-10 pr-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-full  gap-2 " >
 
-                    <div className="bg-gray-100 p-4 pb-{200} rounded-xl">
+                    <div className="bg-gray-100 p-4 pb-20 rounded-xl">
                         <Image src="/Swift.svg" alt="balance" width="25" height="25" className="" />
                         <h1 className="text-2xl font-semibold">Native to Apple platforms</h1>
                         <p>Balance is built with Swift, UIKit 	&#38; Swift UI to make the most of incredible developer APIs Apple provides.</p>
                     </div>
 
                     <div className="bg-gray-100 p-4 pb-20 rounded-xl">
-                        <Image src="/assets/icons/safari.jpg" alt="balance" width="22" height="25" className="" />
+                        <Image src="/piece.svg" alt="balance" width="22" height="25" className="" />
                         <h1 className="text-2xl font-semibold">Safari Extension Integration</h1>
                         <p>Our wallet is woven deeply into the Safari browser so dapp developers can finally start shipping for the mobile web</p>
                     </div>
 
                     <div className="bg-gray-100 p-4 pb-20 rounded-xl">
-                        <Image src="/assets/icons/web.jpg" alt="balance" width="20" height="20" className="" />
+                        <Image src="/globe.svg" alt="balance" width="20" height="20" className="" />
                         <h1 className="text-2xl font-semibold">Truly Open Source Code</h1>
                         <p>We believe the people who use open source protocols deserve interfaces that respect the community&apos;s values</p>
                     </div>
 
                     <div className="bg-gray-100 p-4 pb-20 rounded-xl">
-                        <Image src="/assets/icons/etherans.jpg" alt="balance" width="20" height="25" className="" />
+                        <Image src="/eth.svg" alt="balance" width="20" height="25" className="" />
                         <h1 className="text-2xl font-semibold">Funded By Ethereans</h1>
                         <p>We raised a totally open crowdfunding campaign in 2017 that anyone in the world could participate in</p>
                     </div>
 
                     <div className="bg-gray-100 p-4 pb-20 rounded-xl">
-                        <Image src="/assets/icons/evm.jpg" alt="balance" width="20" height="25" className="" />
+                        <Image src="/Stack.svg" alt="balance" width="20" height="25" className="" />
                         <h1 className="text-2xl font-semibold">Focused on the EVM</h1>
                         <p>We are building on top of the stack that supports the Ethereum Virtual Machine so we can support many protocols</p>
                     </div>
 
                     <div className="bg-gray-100 p-4 pb-20 rounded-xl">
 
-                        <Image src="/assets/icons/lock.jpg" alt="balance" width="20" height="25" className="" />
+                        <Image src="/Lock.svg" alt="balance" width="20" height="25" className="" />
 
                         <h1 className="text-2xl font-semibold">Security Community Support</h1>
 

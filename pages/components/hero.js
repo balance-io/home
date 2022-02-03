@@ -14,7 +14,7 @@ export default function Hero() {
                     </div>
                 </Link>
             </div>
-            <div className="pb-12" />
+            <div className="pb-4" />
         </section>
     );
 }

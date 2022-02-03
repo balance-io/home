@@ -19,7 +19,7 @@ export default function Home() {
       {/* <Announcement /> */}
       <Hero />
       <Features />
-      <div className='mb-40' />
+      <div className='mb-10' />
       <Footer />
     </div>
   )
