@@ -4,25 +4,25 @@ import Link from "next/link";
 export default function Navigation() {
     return (
 
-        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 pt-10 mx-10">
-            <div class="container flex flex-wrap justify-between items-center mx-auto">
-                <a href="#" class="flex ml-2 ">
+        <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 pt-10 mx-10">
+            <div className="container flex flex-wrap justify-between items-center mx-auto">
+                <a href="#" className="flex ml-2 ">
                     <Link href="/">
                         <Image src="/Logo.svg" alt="balance" width="30" height="30" className="cursor-pointer" />
                     </Link>
                 </a>
-                <div class="flex items-center md:order-2">
+                <div className="flex items-center md:order-2">
                 </div>
-                <div class="hidden mr-12 justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
-                    <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                <div className="hidden mr-12 justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
+                    <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-white text-xl text-black rounded md:bg-transparent md:p-0">Discord</a>
+                            <a href="#" className="block py-2 pr-4 pl-3 text-white text-xl text-black rounded md:bg-transparent md:p-0">Discord</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-white text-xl text-black rounded md:bg-transparent md:p-0">Blog</a>
+                            <a href="#" className="block py-2 pr-4 pl-3 text-white text-xl text-black rounded md:bg-transparent md:p-0">Blog</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-white text-xl text-black rounded md:bg-transparent md:p-0">GitHub</a>
+                            <a href="#" className="block py-2 pr-4 pl-3 text-white text-xl text-black rounded md:bg-transparent md:p-0">GitHub</a>
                         </li>
                     </ul>
                 </div>
